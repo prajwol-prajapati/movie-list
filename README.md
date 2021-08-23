@@ -1,5 +1,11 @@
 # Movie List Developer Guide
 
+## App preview
+
+```bash
+URL: https://hopeful-almeida-10a29c.netlify.app/
+```
+
 ## Installation
 
 ```bash
