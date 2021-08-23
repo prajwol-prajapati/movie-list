@@ -4,9 +4,10 @@ import { MovieInterface } from "movies/movies.type";
 
 interface MoviePropsInterface {
   movieInfo?: MovieInterface
+  addToFavorite: () => void
 }
 
-const Movie: React.FC<MoviePropsInterface> = ({ movieInfo }): JSX.Element => {
+const Movie: React.FC<MoviePropsInterface> = ({ movieInfo, addToFavorite }): JSX.Element => {
   const [expanded, setExpanded] = useState(false);
 
   return <div className={`movie-container ${expanded ? 'expanded' : ''}`} onClick={() => setExpanded(!expanded)}>
@@ -21,7 +22,7 @@ const Movie: React.FC<MoviePropsInterface> = ({ movieInfo }): JSX.Element => {
     <div className="break"></div>
     <div className="movie-description-container">
       <span className="movie-description">{movieInfo?.description}</span>
-      <button className="btn-primary add-to-favorite">ADD TO FAVORITE</button>
+      <button className="btn-primary add-to-favorite" onClick={addToFavorite}>ADD TO FAVORITE</button>
     </div>
   </div>
 }

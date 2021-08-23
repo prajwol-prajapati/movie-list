@@ -87,3 +87,21 @@ body {
   margin-top: 16px;
   display: block;
 }
+
+.success-message {
+  position: fixed;
+  top: 100%;
+  transform: translateY(-100%);
+  background-color: green;
+  opacity: 80%;
+  height: 50px;
+  font-size: 1rem;
+  line-height: 50px;
+  color: white;
+  width: 600px;
+  border-radius: 5px;
+}
+
+.success-message > i {
+  padding: 0px 20px;
+}
