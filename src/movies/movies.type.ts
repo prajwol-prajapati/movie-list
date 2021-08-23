@@ -8,6 +8,7 @@ export interface MovieInterface {
 }
 
 export interface DirectorInterface {
-  name: string;
-  details: string;
+  name?: string;
+  details?: string;
+  image?: string;
 }

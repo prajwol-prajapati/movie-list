@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 
-import { MovieInterface } from "movies/movies.type";
+import { DirectorInterface, MovieInterface } from "movies/movies.type";
 
 interface MoviePropsInterface {
-  movieInfo?: MovieInterface
-  addToFavorite: () => void
+  movieInfo?: MovieInterface;
+  addToFavorite: () => void;
+  openDirectorModal: (director: DirectorInterface) => void;
 }
 
-const Movie: React.FC<MoviePropsInterface> = ({ movieInfo, addToFavorite }): JSX.Element => {
+const Movie: React.FC<MoviePropsInterface> = ({ movieInfo, addToFavorite, openDirectorModal }): JSX.Element => {
   const [expanded, setExpanded] = useState(false);
 
   return <div className={`movie-container ${expanded ? 'expanded' : ''}`} onClick={() => setExpanded(!expanded)}>
@@ -17,7 +18,7 @@ const Movie: React.FC<MoviePropsInterface> = ({ movieInfo, addToFavorite }): JSX
     <div className="movie-info-container">
       <span className="movie-title">{movieInfo?.title}</span>
       <span className="movie-genre">{movieInfo?.genre}</span>
-      <span className="movie-director">{movieInfo?.director.name}</span>
+      <span className="movie-director" onClick={() => openDirectorModal(movieInfo?.director)}>{movieInfo?.director.name}</span>
     </div>
     <div className="break"></div>
     <div className="movie-description-container">
