@@ -2,15 +2,16 @@ import React, { useState } from 'react';
 
 import movieList from 'movies/movies.json';
 import Movie from 'movies/components/movie';
-import { DirectorInterface, MovieInterface } from 'movies/movies.type';
 import Modal from 'movies/components/modal';
 import Director from 'movies/components/director';
-
+import { DirectorInterface, MovieInterface } from 'movies/movies.type';
 
 const Movies = (): JSX.Element => {
   const [addedToFavorite, setAddedToFavorite] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [director, setDirector] = useState({});
+
+  const movies: MovieInterface[] = movieList || [];
 
   const addToFavorite = () => {
     setTimeout(() => setAddedToFavorite(true), 1000);
@@ -21,8 +22,6 @@ const Movies = (): JSX.Element => {
     setDirector(director);
     setIsModalOpen(true);
   }
-
-  const movies: MovieInterface[] = movieList || [];
 
   return (
     <div className="movies-container">

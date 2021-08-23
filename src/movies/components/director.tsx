@@ -8,6 +8,7 @@ interface DirectorPropsInterface {
 
 const Director = ({ directorInfo }: DirectorPropsInterface): JSX.Element => {
   const { name, image, details } = directorInfo;
+
   return (
     <>
       <div className="director-name-container"><h2 className="director-name">{name}</h2></div>
