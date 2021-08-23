@@ -3,10 +3,11 @@
     "id": 1,
     "title": "Interstellar",
     "genre": "Space Movie",
-    "description": "Lorem",
+    "description": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
     "poster": "https://in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/interstellar-et00019066-19-02-2021-02-25-12.jpg",
     "director": {
       "name": "Christopher Nolan",
+      "image": "https://www.looper.com/img/gallery/the-worst-superhero-movie-according-to-christopher-nolan/intro-1626376692.jpg",
       "details": "Christopher Edward Nolan CBE (/ˈnoʊlən/; born 30 July 1970) is a British-American film director, producer, and screenwriter. His directorial efforts have grossed more than US$5 billion worldwide, garnered 36 Oscar nominations and 11 wins."
     }
   },
@@ -14,10 +15,11 @@
     "id": 2,
     "title": "Coco",
     "genre": "Animated",
-    "description": "Lorem",
+    "description": "Miguel pursues his love for singing in spite of his family's ban on music. He stumbles into the Land of the Dead, where he learns about his great-great-grandfather who was a legendary singer.",
     "poster": "https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg",
     "director": {
       "name": "Lee Unkrich",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2019/01/lee_unkrich__0.jpg",
       "details": "Lee Edward Unkrich (born August 8, 1967) is an American director, film editor, screenwriter, and animator. He was a longtime member of the creative team at Pixar, where he started in 1994 as a film editor. He later began directing, first as co-director of Toy Story 2."
     }
   },
@@ -29,6 +31,7 @@
     "poster": "https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_FMjpg_UX1000_.jpg",
     "director": {
       "name": "Justin Roiland",
+      "image": "https://i.guim.co.uk/img/media/5b9fabefffdd4fb443baa36b47e8ab48c351af08/0_82_4701_2819/master/4701.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=5e5c2c5c18262e90196f92e3f93d4e8c",
       "details": "Mark Justin Roiland (born February 21, 1980)[2] is an American voice actor, animator, writer, producer, and director. He is best known as the co-creator of Adult Swim's Rick and Morty and its subsequent franchise"
     }
   },
@@ -40,6 +43,7 @@
     "poster": "https://upload.wikimedia.org/wikipedia/en/1/14/Space_jam.jpg",
     "director": {
       "name": "Joe Pytka",
+      "image": "https://charlie-p-2ac84d7056ca7f9d.s3.amazonaws.com/clips/thumbnails/000/030/322/player/1HY906_004_lt.jpg?1490986577",
       "details": "Joe Pytka (born November 4, 1938) is an American film, television, commercial and music video director born in Pittsburgh, Pennsylvania.[1][2] He holds the record for the most nominations for the Directors Guild of America Award for Outstanding Directing – Commercials."
     }
   },
@@ -51,6 +55,7 @@
     "poster": "https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_FMjpg_UX1000_.jpg",
     "director": {
       "name": "Pete Docter",
+      "image": "https://3.bp.blogspot.com/-I58hBANVXjA/Wyl7E3Xm8tI/AAAAAAAAWdQ/_WeyE9JtZS4EmVv9qwoRCTEHGUGDXVh-gCLcBGAs/s1600/Pete%2BDocter.jpg",
       "details": "Peter Hans Docter (born October 9, 1968) is an American animator, film director, screenwriter, producer, voice actor, and chief creative officer of Pixar.[2][3] He is best known for directing the Pixar animated feature films Monsters, Inc. (2001), Up (2009), Inside Out (2015), and Soul (2020), and as a key figure and collaborator at Pixar."
     }
   },
@@ -62,6 +67,7 @@
     "poster": "https://upload.wikimedia.org/wikipedia/en/9/98/John_Wick_TeaserPoster.jpg",
     "director": {
       "name": "Chad Stahelski",
+      "image": "https://d.newsweek.com/en/full/1436687/who-chad-stahelski-john-wick-3-director-was-keanu-reeves-stuntman-before-movie.jpg",
       "details": "Chad Stahelski (born September 20, 1968) is an American stuntman and film director. He is known for his work on Buffy the Vampire Slayer and directing the 2014 film John Wick along with David Leitch, as well as solo directing its two sequels."
     }
   }

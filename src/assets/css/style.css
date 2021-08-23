@@ -1,22 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
+  background-color: #e5e5e5;
   font-family: "Roboto";
 }
 
 .movies-container {
+  padding: 1rem;
   background: #ffffff;
   max-width: 600px;
-  /* display: flex; */
   margin: auto;
 }
 
 .movie-container {
-  width: 100%;
   height: 128px;
   overflow: hidden;
-  margin: 16px 16px 0px 16px;
+  margin: 0px 0px 16px 0px;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-container.expanded {
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
 }
 
 .movie-container:hover {
@@ -25,6 +31,7 @@ body {
 
 .movie-poster-container {
   width: 152px;
+  height: 128px;
   overflow: hidden;
 }
 
@@ -56,4 +63,27 @@ body {
 .movie-director {
   display: inline-block;
   line-height: 1rem;
+}
+
+.movie-description-container {
+  display: block;
+  margin: 16px 0px;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.btn-primary {
+  background-color: #1b54a8;
+  color: white;
+  padding: 12px 31px;
+  border-radius: 10px;
+  border: none;
+}
+
+.add-to-favorite {
+  margin-top: 16px;
+  display: block;
 }
